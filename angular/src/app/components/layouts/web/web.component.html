@@ -1,0 +1,54 @@
+<nav  class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	<div class="container">
+		<a class="navbar-brand" href="#">JHON ALEX NOVA</a>
+
+		<button  aria-expanded="false" class="navbar-toggler collapsed" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div  class="navbar-collapse collapse" id="navbarSupportedContent" >
+			<ul class="navbar-nav ml-auto navbar-right">
+				<li class="nav-item active"><a class="nav-link" [routerLink]="['/inicio']">Inicio</a></li>
+				<li class="nav-item"><a class="nav-link" >Servicios</a></li>
+				<li class="nav-item"><a class="nav-link">Galeria</a></li>
+				<li class="nav-item"><a class="nav-link">Proyectos</a></li>
+				<li class="nav-item"><a class="nav-link">Contacto </a></li>
+				<li class="nav-item"><a class="nav-link" [routerLink]="['/acceso']">Acceso </a></li></ul>
+		</div>
+	</div>
+</nav>
+
+<section id="content">
+	<router-outlet></router-outlet>
+</section>
+
+<footer>
+	<div class="container">
+		<div  class="row text-center text-xs-center text-sm-left text-md-left"></div>
+			<div  class="row">
+				<div  class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul  class="list-unstyled list-inline social text-center">
+						<li  class="list-inline-item">
+							<a  href="https://www.facebook.com/jhonalex.nova.5" target="blank"><i  class="fa fa-facebook"></i></a>
+						</li>
+						<li  class="list-inline-item">
+							<a  href="https://twitter.com/jhonalexnova5" target="blank"><i  class="fa fa-twitter"></i></a>
+						</li>
+						<li  class="list-inline-item">
+							<a  href="https://www.instagram.com/jhonalexnova/?hl=es-la" target="blank"><i  class="fa fa-instagram"></i></a>
+						</li>
+					<li  class="list-inline-item">
+						<a  href="https://plus.google.com/u/0/104190972607498938815" target="blank"><i  class="fa fa-google-plus"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div  class="row">
+			<div  class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+				<p >JHONY ALEXANDER BOYACA NOVA</p>
+				<p  class="h6">Copyright © 2018 Todos los derechos reservados.</p>
+			</div>
+		</div>
+	</div>	
+</footer>
+

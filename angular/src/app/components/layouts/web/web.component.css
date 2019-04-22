@@ -1,0 +1,25 @@
+#content{
+    margin-top: 57px;
+}
+footer{
+	background: #33383c;
+    margin-top: 100px;
+    padding: 50px 0 50px 0;
+}
+
+footer .social li {
+    padding: 3px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.footer ul.social li a i {
+    margin-right: 5px;
+    font-size: 25px;
+    transition: .5s all ease;
+} 
